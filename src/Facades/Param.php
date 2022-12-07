@@ -13,6 +13,6 @@ class Param extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return new \Johnylemon\Apidocs\Params\Param;
+        return \Johnylemon\Apidocs\Params\Param::class;
     }
 }
